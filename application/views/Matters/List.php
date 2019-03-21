@@ -285,7 +285,16 @@
  											echo decodedate($row->DateOpen);
 
  											?></td>
- 											<td><?=$estado[$row->Status]?></td>  
+ 											<td>
+
+											 <?php
+											 if($estado[$row->Status] == '' ){
+												echo $this->lang->line('matters_54');
+											 }else{
+												echo $estado[$row->Status];
+											 }
+											 ?>
+											 </td>
  										</tr>
 
  									<?php } 

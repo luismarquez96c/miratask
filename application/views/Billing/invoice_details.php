@@ -37,9 +37,14 @@ $url = $this->input->get('url');
 
 
 <div class="col-md-3 pl0">
-	<a id="add_matters" class="btn btn-primary btn-lg btn-block" href="<?=base_app()?>Billing/deleteDraft/<?=$Invoice->Id.'?url='.$url?>">
+
+	<a data-toggle="modal" data-target="#deleteDraft" data-id="<?=$Invoice->Id?>"
+	id="add_matters" class="btn btn-primary btn-lg btn-block">
 		<i class="fa fa-plus"></i> &nbsp; <?php echo $this->lang->line('invoice_4'); ?>
 	</a>
+	<!-- <a id="add_matters" class="btn btn-primary btn-lg btn-block" href="<?=base_app()?>Billing/deleteDraft/<?=$Invoice->Id.'?url='.$url?>">
+		<i class="fa fa-plus"></i> &nbsp; <?php echo $this->lang->line('invoice_4'); ?>
+	</a> -->
 </div>	
 <div class="clearh50"></div>
 <?php 
@@ -568,7 +573,27 @@ echo $this->session->userdata("message");
 
 
 
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#deleteDraft" data-id="hola">Open modal for @mdo</button>
 
+<div class="modal fade" id="deleteDraft" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Confirmación</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+        <button id="deleteConf" type="button" class="btn btn-primary">Eliminar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -576,9 +601,32 @@ echo $this->session->userdata("message");
 
 
 <script>
+	var idInvoice;
+	var button;
+	$('#deleteDraft').on('show.bs.modal', function (event) {
+	button = $(event.relatedTarget) // Button that triggered the modal
+	idInvoice = button.data('id') // Extract info from data-* attributes
+	// If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+	// Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+	var modal = $(this)
+	modal.find('.modal-body').text('En verdad desea eliminar el invoice ' + idInvoice)
+	modal.find('.modal-body input').val(idInvoice)
+	})
+
+	// $('#deleteConf').click(function(){
 
 
+	// 	<?=base_app()?>Billing/deleteDraft/<?=$Invoice->Id.'?url='.$url?>
+	// });
 
+	$("#deleteConf").click(function(){
+		alert("<?=base_app()?>Billing/deleteDraft/" + idInvoice + "?url=");
+		$.ajax({url: "<?=base_app()?>Billing/deleteDraft/" + idInvoice + "?url="  , success: function(result){
+			alert("eliminado");
+			$('#deleteDraft').modal('hide');
+		}});
+	});
+	
 
 
 	$( "#iDate" ).datepicker({
