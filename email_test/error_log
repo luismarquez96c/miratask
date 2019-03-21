@@ -1,0 +1,2 @@
+[20-Mar-2018 17:56:56 America/Chicago] PHP Warning:  imap_open(): Couldn't open stream {imap.gmail.com:993/imap/ssl}INBOX in /home/demo/public_html/Miralaw/email_test/index.php on line 7
+[20-Mar-2018 17:59:54 America/Chicago] PHP Warning:  imap_open(): Couldn't open stream {imap.gmail.com:993/imap/ssl}INBOX in /home/demo/public_html/Miralaw/email_test/index.php on line 7
