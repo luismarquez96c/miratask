@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //$config['base_url'] = 'http://demo.web-informatica.info/MiraTask';
-$config['base_url'] = 'http://demo.miratask.com/';
+$config['base_url'] = 'http://localhost/miratask/';
 
 /*
 |--------------------------------------------------------------------------
