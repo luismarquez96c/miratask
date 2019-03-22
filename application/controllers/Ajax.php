@@ -362,13 +362,6 @@ class Ajax extends CI_Controller {
 
 
 	function ContactNewSave(){
-
-
-
-
-
-		
-
 		$status="";
 
 		
