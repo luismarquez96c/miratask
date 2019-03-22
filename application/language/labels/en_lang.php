@@ -75,6 +75,7 @@ $lang['matters_51'] = 'Quartely';
 
 $lang['matters_52'] = 'Matter Basic';
 $lang['matters_53'] = 'Intake Detail';
+$lang['matters_54'] = 'Closed';
 
 
 
@@ -126,7 +127,7 @@ $lang['matters_detail_42'] = 'Date Opened*';
 $lang['matters_detail_43'] = 'Description: ';
 $lang['matters_detail_44'] = 'Practice Area*';
 $lang['matters_detail_45'] = 'Originating Attorney *';
-
+$lang['matters_detail_46'] = 'Matter does not exist';
 
 
 

@@ -644,6 +644,13 @@ class Matters extends CI_Controller {
 			$this->session->set_userdata('Wmessage', $message);
 			redirect(base_app()."Matters");
 		}
+		else{
+			if( count( $this->MatterModel->getOne($Id)) == 0 ){
+				$message=$this->lang->line('matters_detail_46');
+				$this->session->set_userdata('Wmessage', $message);
+				redirect(base_app()."Matters");
+			}
+		}
 		
 		$this->session->set_userdata("IDMatterActual",$Id);
 		
