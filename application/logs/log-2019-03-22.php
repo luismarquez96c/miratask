@@ -2595,3 +2595,245 @@ INFO - 2019-03-22 16:09:20 --> Controller Class Initialized
 INFO - 2019-03-22 16:09:20 --> Database Driver Class Initialized
 INFO - 2019-03-22 16:09:20 --> Final output sent to browser
 DEBUG - 2019-03-22 16:09:20 --> Total execution time: 0.4958
+INFO - 2019-03-22 17:13:02 --> Config Class Initialized
+INFO - 2019-03-22 17:13:03 --> Hooks Class Initialized
+DEBUG - 2019-03-22 17:13:04 --> UTF-8 Support Enabled
+INFO - 2019-03-22 17:13:04 --> Utf8 Class Initialized
+INFO - 2019-03-22 17:13:04 --> URI Class Initialized
+INFO - 2019-03-22 17:13:05 --> Router Class Initialized
+INFO - 2019-03-22 17:13:05 --> Output Class Initialized
+INFO - 2019-03-22 17:13:06 --> Security Class Initialized
+DEBUG - 2019-03-22 17:13:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-22 17:13:06 --> Input Class Initialized
+INFO - 2019-03-22 17:13:06 --> Language Class Initialized
+INFO - 2019-03-22 17:13:07 --> Loader Class Initialized
+INFO - 2019-03-22 17:13:07 --> Helper loaded: url_helper
+INFO - 2019-03-22 17:13:07 --> Helper loaded: base_app_helper
+INFO - 2019-03-22 17:13:07 --> Helper loaded: decodedate_helper
+INFO - 2019-03-22 17:13:07 --> Helper loaded: encodedate_helper
+INFO - 2019-03-22 17:13:08 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-22 17:13:08 --> Helper loaded: form_helper
+INFO - 2019-03-22 17:13:08 --> Form Validation Class Initialized
+INFO - 2019-03-22 17:13:08 --> Controller Class Initialized
+INFO - 2019-03-22 17:13:09 --> Database Driver Class Initialized
+INFO - 2019-03-22 17:13:12 --> Model Class Initialized
+INFO - 2019-03-22 17:13:13 --> Language file loaded: language/labels/en_lang.php
+INFO - 2019-03-22 17:13:16 --> File loaded: C:\xampp\htdocs\miratask\application\views\lightbox.php
+INFO - 2019-03-22 17:13:16 --> File loaded: C:\xampp\htdocs\miratask\application\views\MainMenu.php
+INFO - 2019-03-22 17:13:17 --> Helper loaded: calendar_helper
+INFO - 2019-03-22 17:13:17 --> Helper loaded: caltime_helper
+INFO - 2019-03-22 17:13:17 --> File loaded: C:\xampp\htdocs\miratask\application\views\dashboard.php
+INFO - 2019-03-22 17:13:17 --> File loaded: C:\xampp\htdocs\miratask\application\views\MainView.php
+INFO - 2019-03-22 17:13:17 --> Final output sent to browser
+DEBUG - 2019-03-22 17:13:17 --> Total execution time: 16.2659
+INFO - 2019-03-22 17:13:20 --> Config Class Initialized
+INFO - 2019-03-22 17:13:20 --> Hooks Class Initialized
+DEBUG - 2019-03-22 17:13:20 --> UTF-8 Support Enabled
+INFO - 2019-03-22 17:13:20 --> Utf8 Class Initialized
+INFO - 2019-03-22 17:13:20 --> URI Class Initialized
+INFO - 2019-03-22 17:13:20 --> Router Class Initialized
+INFO - 2019-03-22 17:13:20 --> Output Class Initialized
+INFO - 2019-03-22 17:13:20 --> Security Class Initialized
+DEBUG - 2019-03-22 17:13:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-22 17:13:20 --> Input Class Initialized
+INFO - 2019-03-22 17:13:20 --> Language Class Initialized
+INFO - 2019-03-22 17:13:20 --> Loader Class Initialized
+INFO - 2019-03-22 17:13:20 --> Helper loaded: url_helper
+INFO - 2019-03-22 17:13:20 --> Helper loaded: base_app_helper
+INFO - 2019-03-22 17:13:20 --> Helper loaded: decodedate_helper
+INFO - 2019-03-22 17:13:20 --> Helper loaded: encodedate_helper
+INFO - 2019-03-22 17:13:21 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-22 17:13:21 --> Helper loaded: form_helper
+INFO - 2019-03-22 17:13:21 --> Form Validation Class Initialized
+INFO - 2019-03-22 17:13:21 --> Controller Class Initialized
+INFO - 2019-03-22 17:13:21 --> Database Driver Class Initialized
+INFO - 2019-03-22 17:13:21 --> Final output sent to browser
+DEBUG - 2019-03-22 17:13:21 --> Total execution time: 0.6191
+INFO - 2019-03-22 17:13:29 --> Config Class Initialized
+INFO - 2019-03-22 17:13:29 --> Hooks Class Initialized
+DEBUG - 2019-03-22 17:13:29 --> UTF-8 Support Enabled
+INFO - 2019-03-22 17:13:29 --> Utf8 Class Initialized
+INFO - 2019-03-22 17:13:29 --> URI Class Initialized
+INFO - 2019-03-22 17:13:29 --> Router Class Initialized
+INFO - 2019-03-22 17:13:29 --> Output Class Initialized
+INFO - 2019-03-22 17:13:29 --> Security Class Initialized
+DEBUG - 2019-03-22 17:13:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-22 17:13:29 --> Input Class Initialized
+INFO - 2019-03-22 17:13:29 --> Language Class Initialized
+INFO - 2019-03-22 17:13:29 --> Loader Class Initialized
+INFO - 2019-03-22 17:13:29 --> Helper loaded: url_helper
+INFO - 2019-03-22 17:13:29 --> Helper loaded: base_app_helper
+INFO - 2019-03-22 17:13:29 --> Helper loaded: decodedate_helper
+INFO - 2019-03-22 17:13:29 --> Helper loaded: encodedate_helper
+INFO - 2019-03-22 17:13:29 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-22 17:13:29 --> Helper loaded: form_helper
+INFO - 2019-03-22 17:13:29 --> Form Validation Class Initialized
+INFO - 2019-03-22 17:13:29 --> Controller Class Initialized
+INFO - 2019-03-22 17:13:29 --> Database Driver Class Initialized
+INFO - 2019-03-22 17:13:29 --> Model Class Initialized
+INFO - 2019-03-22 17:13:29 --> Language file loaded: language/labels/en_lang.php
+INFO - 2019-03-22 17:13:29 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-03-22 17:13:29 --> Pagination Class Initialized
+INFO - 2019-03-22 17:13:30 --> File loaded: C:\xampp\htdocs\miratask\application\views\lightbox.php
+INFO - 2019-03-22 17:13:30 --> File loaded: C:\xampp\htdocs\miratask\application\views\MainMenu.php
+INFO - 2019-03-22 17:13:31 --> File loaded: C:\xampp\htdocs\miratask\application\views\Matters/List.php
+INFO - 2019-03-22 17:13:31 --> File loaded: C:\xampp\htdocs\miratask\application\views\MainView.php
+INFO - 2019-03-22 17:13:31 --> Final output sent to browser
+DEBUG - 2019-03-22 17:13:31 --> Total execution time: 2.2016
+INFO - 2019-03-22 17:13:31 --> Config Class Initialized
+INFO - 2019-03-22 17:13:31 --> Hooks Class Initialized
+DEBUG - 2019-03-22 17:13:31 --> UTF-8 Support Enabled
+INFO - 2019-03-22 17:13:31 --> Utf8 Class Initialized
+INFO - 2019-03-22 17:13:31 --> URI Class Initialized
+INFO - 2019-03-22 17:13:31 --> Router Class Initialized
+INFO - 2019-03-22 17:13:31 --> Output Class Initialized
+INFO - 2019-03-22 17:13:31 --> Security Class Initialized
+DEBUG - 2019-03-22 17:13:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-22 17:13:31 --> Input Class Initialized
+INFO - 2019-03-22 17:13:31 --> Language Class Initialized
+INFO - 2019-03-22 17:13:31 --> Loader Class Initialized
+INFO - 2019-03-22 17:13:31 --> Helper loaded: url_helper
+INFO - 2019-03-22 17:13:31 --> Helper loaded: base_app_helper
+INFO - 2019-03-22 17:13:31 --> Helper loaded: decodedate_helper
+INFO - 2019-03-22 17:13:31 --> Helper loaded: encodedate_helper
+INFO - 2019-03-22 17:13:32 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-22 17:13:32 --> Helper loaded: form_helper
+INFO - 2019-03-22 17:13:32 --> Form Validation Class Initialized
+INFO - 2019-03-22 17:13:32 --> Controller Class Initialized
+INFO - 2019-03-22 17:13:32 --> Database Driver Class Initialized
+INFO - 2019-03-22 17:13:32 --> Final output sent to browser
+DEBUG - 2019-03-22 17:13:32 --> Total execution time: 0.4280
+INFO - 2019-03-22 17:13:35 --> Config Class Initialized
+INFO - 2019-03-22 17:13:35 --> Hooks Class Initialized
+DEBUG - 2019-03-22 17:13:35 --> UTF-8 Support Enabled
+INFO - 2019-03-22 17:13:35 --> Utf8 Class Initialized
+INFO - 2019-03-22 17:13:35 --> URI Class Initialized
+INFO - 2019-03-22 17:13:35 --> Router Class Initialized
+INFO - 2019-03-22 17:13:36 --> Output Class Initialized
+INFO - 2019-03-22 17:13:36 --> Security Class Initialized
+DEBUG - 2019-03-22 17:13:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-22 17:13:36 --> Input Class Initialized
+INFO - 2019-03-22 17:13:36 --> Language Class Initialized
+INFO - 2019-03-22 17:13:36 --> Loader Class Initialized
+INFO - 2019-03-22 17:13:36 --> Helper loaded: url_helper
+INFO - 2019-03-22 17:13:36 --> Helper loaded: base_app_helper
+INFO - 2019-03-22 17:13:36 --> Helper loaded: decodedate_helper
+INFO - 2019-03-22 17:13:36 --> Helper loaded: encodedate_helper
+INFO - 2019-03-22 17:13:36 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-22 17:13:36 --> Helper loaded: form_helper
+INFO - 2019-03-22 17:13:36 --> Form Validation Class Initialized
+INFO - 2019-03-22 17:13:36 --> Controller Class Initialized
+INFO - 2019-03-22 17:13:36 --> Database Driver Class Initialized
+INFO - 2019-03-22 17:13:36 --> Model Class Initialized
+INFO - 2019-03-22 17:13:36 --> Language file loaded: language/labels/en_lang.php
+INFO - 2019-03-22 17:13:36 --> Model Class Initialized
+INFO - 2019-03-22 17:13:36 --> File loaded: C:\xampp\htdocs\miratask\application\views\lightbox.php
+INFO - 2019-03-22 17:13:36 --> File loaded: C:\xampp\htdocs\miratask\application\views\MainMenu.php
+INFO - 2019-03-22 17:13:43 --> Model Class Initialized
+INFO - 2019-03-22 17:13:43 --> File loaded: C:\xampp\htdocs\miratask\application\views\Matters/newNote.php
+INFO - 2019-03-22 17:13:44 --> File loaded: C:\xampp\htdocs\miratask\application\views\Matters/billing-matter.php
+INFO - 2019-03-22 17:13:44 --> Helper loaded: caltime_helper
+INFO - 2019-03-22 17:13:44 --> File loaded: C:\xampp\htdocs\miratask\application\views\Matters/Details.php
+INFO - 2019-03-22 17:13:44 --> File loaded: C:\xampp\htdocs\miratask\application\views\MainView.php
+INFO - 2019-03-22 17:13:44 --> Final output sent to browser
+DEBUG - 2019-03-22 17:13:44 --> Total execution time: 8.3601
+INFO - 2019-03-22 17:13:45 --> Config Class Initialized
+INFO - 2019-03-22 17:13:45 --> Hooks Class Initialized
+DEBUG - 2019-03-22 17:13:45 --> UTF-8 Support Enabled
+INFO - 2019-03-22 17:13:45 --> Utf8 Class Initialized
+INFO - 2019-03-22 17:13:45 --> URI Class Initialized
+INFO - 2019-03-22 17:13:45 --> Router Class Initialized
+INFO - 2019-03-22 17:13:45 --> Output Class Initialized
+INFO - 2019-03-22 17:13:45 --> Security Class Initialized
+DEBUG - 2019-03-22 17:13:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-22 17:13:45 --> Input Class Initialized
+INFO - 2019-03-22 17:13:45 --> Language Class Initialized
+INFO - 2019-03-22 17:13:45 --> Loader Class Initialized
+INFO - 2019-03-22 17:13:45 --> Helper loaded: url_helper
+INFO - 2019-03-22 17:13:45 --> Helper loaded: base_app_helper
+INFO - 2019-03-22 17:13:45 --> Helper loaded: decodedate_helper
+INFO - 2019-03-22 17:13:45 --> Helper loaded: encodedate_helper
+INFO - 2019-03-22 17:13:45 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-22 17:13:45 --> Helper loaded: form_helper
+INFO - 2019-03-22 17:13:45 --> Form Validation Class Initialized
+INFO - 2019-03-22 17:13:45 --> Controller Class Initialized
+INFO - 2019-03-22 17:13:46 --> Database Driver Class Initialized
+INFO - 2019-03-22 17:13:46 --> Final output sent to browser
+DEBUG - 2019-03-22 17:13:46 --> Total execution time: 0.6167
+INFO - 2019-03-22 17:13:50 --> Config Class Initialized
+INFO - 2019-03-22 17:13:51 --> Hooks Class Initialized
+DEBUG - 2019-03-22 17:13:51 --> UTF-8 Support Enabled
+INFO - 2019-03-22 17:13:51 --> Utf8 Class Initialized
+INFO - 2019-03-22 17:13:51 --> URI Class Initialized
+INFO - 2019-03-22 17:13:52 --> Router Class Initialized
+INFO - 2019-03-22 17:13:52 --> Output Class Initialized
+INFO - 2019-03-22 17:13:52 --> Security Class Initialized
+DEBUG - 2019-03-22 17:13:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-22 17:13:53 --> Input Class Initialized
+INFO - 2019-03-22 17:13:53 --> Language Class Initialized
+INFO - 2019-03-22 17:13:53 --> Loader Class Initialized
+INFO - 2019-03-22 17:13:53 --> Helper loaded: url_helper
+INFO - 2019-03-22 17:13:53 --> Helper loaded: base_app_helper
+INFO - 2019-03-22 17:13:53 --> Helper loaded: decodedate_helper
+INFO - 2019-03-22 17:13:53 --> Helper loaded: encodedate_helper
+INFO - 2019-03-22 17:13:54 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-22 17:13:54 --> Helper loaded: form_helper
+INFO - 2019-03-22 17:13:55 --> Form Validation Class Initialized
+INFO - 2019-03-22 17:13:55 --> Controller Class Initialized
+INFO - 2019-03-22 17:13:55 --> Database Driver Class Initialized
+INFO - 2019-03-22 17:13:55 --> Model Class Initialized
+INFO - 2019-03-22 17:13:56 --> Language file loaded: language/labels/en_lang.php
+INFO - 2019-03-22 17:13:56 --> Config Class Initialized
+INFO - 2019-03-22 17:13:57 --> Hooks Class Initialized
+DEBUG - 2019-03-22 17:13:57 --> UTF-8 Support Enabled
+INFO - 2019-03-22 17:13:57 --> Utf8 Class Initialized
+INFO - 2019-03-22 17:13:57 --> URI Class Initialized
+INFO - 2019-03-22 17:13:57 --> Router Class Initialized
+INFO - 2019-03-22 17:13:57 --> Output Class Initialized
+INFO - 2019-03-22 17:13:57 --> Security Class Initialized
+DEBUG - 2019-03-22 17:13:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-22 17:13:57 --> Input Class Initialized
+INFO - 2019-03-22 17:13:57 --> Language Class Initialized
+INFO - 2019-03-22 17:13:57 --> Loader Class Initialized
+INFO - 2019-03-22 17:13:57 --> Helper loaded: url_helper
+INFO - 2019-03-22 17:13:57 --> Helper loaded: base_app_helper
+INFO - 2019-03-22 17:13:58 --> Helper loaded: decodedate_helper
+INFO - 2019-03-22 17:13:58 --> Helper loaded: encodedate_helper
+INFO - 2019-03-22 17:13:58 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-22 17:13:58 --> Helper loaded: form_helper
+INFO - 2019-03-22 17:13:58 --> Form Validation Class Initialized
+INFO - 2019-03-22 17:13:59 --> Controller Class Initialized
+INFO - 2019-03-22 17:13:59 --> Database Driver Class Initialized
+INFO - 2019-03-22 17:13:59 --> Model Class Initialized
+INFO - 2019-03-22 17:14:00 --> Language file loaded: language/labels/en_lang.php
+INFO - 2019-03-22 17:14:00 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-03-22 17:14:00 --> Pagination Class Initialized
+INFO - 2019-03-22 17:14:01 --> File loaded: C:\xampp\htdocs\miratask\application\views\lightbox.php
+INFO - 2019-03-22 17:14:01 --> File loaded: C:\xampp\htdocs\miratask\application\views\MainMenu.php
+INFO - 2019-03-22 17:14:01 --> File loaded: C:\xampp\htdocs\miratask\application\views\Matters/List.php
+INFO - 2019-03-22 17:14:01 --> File loaded: C:\xampp\htdocs\miratask\application\views\MainView.php
+INFO - 2019-03-22 17:14:01 --> Final output sent to browser
+DEBUG - 2019-03-22 17:14:01 --> Total execution time: 5.0323
+INFO - 2019-03-22 17:14:02 --> Config Class Initialized
+INFO - 2019-03-22 17:14:02 --> Hooks Class Initialized
+DEBUG - 2019-03-22 17:14:02 --> UTF-8 Support Enabled
+INFO - 2019-03-22 17:14:02 --> Utf8 Class Initialized
+INFO - 2019-03-22 17:14:02 --> URI Class Initialized
+INFO - 2019-03-22 17:14:02 --> Router Class Initialized
+INFO - 2019-03-22 17:14:02 --> Output Class Initialized
+INFO - 2019-03-22 17:14:02 --> Security Class Initialized
+DEBUG - 2019-03-22 17:14:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-22 17:14:02 --> Input Class Initialized
+INFO - 2019-03-22 17:14:02 --> Language Class Initialized
+INFO - 2019-03-22 17:14:02 --> Loader Class Initialized
+INFO - 2019-03-22 17:14:02 --> Helper loaded: url_helper
+INFO - 2019-03-22 17:14:02 --> Helper loaded: base_app_helper
+INFO - 2019-03-22 17:14:02 --> Helper loaded: decodedate_helper
+INFO - 2019-03-22 17:14:02 --> Helper loaded: encodedate_helper
+INFO - 2019-03-22 17:14:02 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-22 17:14:02 --> Helper loaded: form_helper
+INFO - 2019-03-22 17:14:02 --> Form Validation Class Initialized
+INFO - 2019-03-22 17:14:02 --> Controller Class Initialized
+INFO - 2019-03-22 17:14:02 --> Database Driver Class Initialized
+INFO - 2019-03-22 17:14:02 --> Final output sent to browser
+DEBUG - 2019-03-22 17:14:02 --> Total execution time: 0.4057
