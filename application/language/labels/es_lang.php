@@ -78,7 +78,7 @@ $lang['matters_51'] = 'Trimestral';
 
 $lang['matters_52'] = 'Detalle del caso';
 $lang['matters_53'] = 'Detalle del ingreso';
-
+$lang['matters_54'] = 'Cerrado';
 
 $lang['matters_detail_1'] = 'Detalles de caso';
 $lang['matters_detail_2'] = 'Volver al caso';
@@ -127,6 +127,7 @@ $lang['matters_detail_42'] = 'Fecha de apertura *';
 $lang['matters_detail_43'] = 'Descripción:';
 $lang['matters_detail_44'] = 'Área de práctica *';
 $lang['matters_detail_45'] = 'Abogado principal *';
+$lang['matters_detail_46'] = '¡Matter inexistente!';
 
 
 $lang['contacts_1'] = 'Contactos';

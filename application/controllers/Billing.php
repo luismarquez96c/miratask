@@ -118,7 +118,7 @@ class Billing extends CI_Controller {
 
 	public function set_univioced_page($page){
 
-		if($page==""){ $page='0'; }
+		if($page==""){ $page='1'; }
 		
 		$this->session->set_userdata("univoicedActualpage",$page);
 		
@@ -391,7 +391,7 @@ class Billing extends CI_Controller {
 
 	public function iPage2($current=0,$page=0)
 	{
-		//if($page==""){ $page='0'; }
+		if($page==0){ $page=1; }
 		$this->session->set_userdata("InvoiceDueActualpage",$page);
 		redirect(base_app()."Billing/Aging/".$current);
 	}
@@ -477,7 +477,7 @@ class Billing extends CI_Controller {
 
 
 		if ($days==0) {
-			$where=" AND DueDate < '$fecha' "; 
+			$where=" AND DueDate > '$fecha' "; 
 		}
 
 		if ($days>0 AND $days<=60) {
