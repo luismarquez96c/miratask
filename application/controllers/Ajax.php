@@ -446,9 +446,7 @@ class Ajax extends CI_Controller {
 
 		//Validate Phone
 
-		for($i=1;$i<=$totPhoneCont;$i++)
-
-		{
+		for($i=1;$i<=$totPhoneCont;$i++){
 
 			if($this->input->post('Phone'.$i)!="")
 
@@ -551,9 +549,9 @@ class Ajax extends CI_Controller {
 				'Profession'=>$this->input->post('Profession'),
 
 				'Company'=>$this->input->post('Company'),
-
+				// SIEMPRE SERA 0000-00-00 00:00:00
 				'Birdate'=>$new_date,
-
+				// NO ESTÁ. NUNDA SE UTILIZA
 				'OtherIdentifier'=>$this->input->post('OtherIdenty'),
 
 				'GroupId'=>$this->input->post('Groups'),
@@ -585,7 +583,7 @@ class Ajax extends CI_Controller {
 			{
 
 
-
+				//SE UTILIZA PARA DEVOLVERSELO A LA VISTA COMO STATUS, PERO ESTÁ COMENTARO AL FINAL
 				$arr = array('status' => 1, 'insert_id' => $insert_id, 'tot_address' =>$totAddressCont, 'tot_phone' =>$totPhoneCont); 
 
 				
