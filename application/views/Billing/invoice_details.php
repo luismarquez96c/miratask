@@ -573,7 +573,6 @@ echo $this->session->userdata("message");
 
 
 
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#deleteDraft" data-id="hola">Open modal for @mdo</button>
 
 <div class="modal fade" id="deleteDraft" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -620,10 +619,10 @@ echo $this->session->userdata("message");
 	// });
 
 	$("#deleteConf").click(function(){
-		alert("<?=base_app()?>Billing/deleteDraft/" + idInvoice + "?url=");
 		$.ajax({url: "<?=base_app()?>Billing/deleteDraft/" + idInvoice + "?url="  , success: function(result){
 			alert("eliminado");
 			$('#deleteDraft').modal('hide');
+			location.href ="<?php echo base_app() . 'Billing/invoices'  ?>";
 		}});
 	});
 	

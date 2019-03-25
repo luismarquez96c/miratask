@@ -868,7 +868,7 @@ class Billing extends CI_Controller {
 		}else{
 			$message='<span class="green">data delete Successfully!</span>'.validation_errors();
 			$this->session->set_userdata('Wmessage', $message);
-			redirect($redirect);
+			redirect(base_app()."Billing/invoices");
 			//redirect(base_app()."Billing/invoice_details/".$id);
 		}
 
@@ -1559,7 +1559,7 @@ class Billing extends CI_Controller {
 		//$date2 = '2018-06-12';
 
 		$invoices = $this->billing->getInvoicesToPrint($date1,$date2);
-
+		
 		$data = array();
 		$i = 0;
 		$hoy = date("dmyhis");
@@ -1842,13 +1842,15 @@ class Billing extends CI_Controller {
 			$html.='</body>
 			</html>';
 
-			$pdfFilePath = "invoices_".$hoy.".pdf";
+			// $pdfFilePath = "invoices_".$hoy.".pdf";
 
 
-			$this->load->library('M_pdf');
-			$mpdf = new mPDF('c', 'Letter', 0, '', 0, 0, 0, 0, 0, 0); 
-			$mpdf->WriteHTML($html);
-			$mpdf->Output($pdfFilePath, "D");
+			// $this->load->library('M_pdf');
+			// $mpdf = new mPDF('c', 'Letter', 0, '', 0, 0, 0, 0, 0, 0); 
+			// $mpdf->WriteHTML($html);
+			// $mpdf->Output($pdfFilePath, "D");
+
+			echo $html;
 		}
 
 	}

@@ -20,7 +20,9 @@
 
  			$("#"+objeto).slideDown( "fast" );
  		}
- 	} 	
+	 } 	
+	 
+
 
  </script>
 
@@ -73,7 +75,7 @@
  			</div>
  		</div>
  		<div class="col-xs-1 text-center">
- 			<span onclick="printInvoices()" class="fa fa-print fa-2x vcenter"></span>
+ 			<span onclick="printInvoices(<?= base_app ?>)" class="fa fa-print fa-2x vcenter"></span>
  		</div>
  	</div>
  	<br />
