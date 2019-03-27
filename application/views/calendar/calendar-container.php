@@ -8,12 +8,12 @@ $ci->lang->load($this->session->userdata("lng") , 'labels');
 	<h3><?php echo $this->lang->line('calendar_1'); ?></h3><hr>
 </div>
 <style type="text/css">
-.wi-calendar-week-header-allday-day{
-	width: 14.285%;
-	height: 100%;
-	float: left;
-	position: relative;
-}
+	.wi-calendar-week-header-allday-day{
+		width: 14.285%;
+		height: 100%;
+		float: left;
+		position: relative;
+	}
 </style>
 
 
@@ -494,6 +494,7 @@ $ci->lang->load($this->session->userdata("lng") , 'labels');
 		});
 
 	}
+
 
 	$("#modal-event").on('shown.bs.modal', function() {
 

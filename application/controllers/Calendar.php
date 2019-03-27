@@ -26,9 +26,11 @@ class Calendar extends CI_Controller {
 		$data["vista"]="calendar/calendar-container";
 		$this->load->view('MainView', $data);
 	}
+	
 	function modal_event_detail(){
 		$data["date"]=($this->input->post("date") && $this->input->post("date")!=0 ? date("m/d/Y",strtotime($this->input->post("date"))) : date("m/d/Y") );
 		$data["minute"]=(int)$this->input->post("minute");
+		// DEFAULT_MATTER VA NULO AL LLAMAR DESDE ADD_EVENT JS
 		$data["default_matter"]=$this->calendar->matter_get_by_id((int)$this->input->post("matter_id"));
 
 		$id_event=$this->input->post("id")?(int)$this->input->post("id"):0;

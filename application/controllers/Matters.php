@@ -189,7 +189,6 @@ class Matters extends CI_Controller {
 
 
 	public function SaveNew(){
-		
 		$status="";
 		
 		$data=$this->SecureModel->globalTask();
@@ -262,7 +261,6 @@ class Matters extends CI_Controller {
 		// 	header('Location: '.$newURL);
 		// }
 
-		die();
 		if($status==""){
 			
 			$data = array(
