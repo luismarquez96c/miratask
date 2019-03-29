@@ -1851,7 +1851,7 @@ class Billing extends CI_Controller {
 			// $mpdf->Output($pdfFilePath, "D");
 
 
-			// echo $html;
+			 echo $html;
 		}
 
 	}
