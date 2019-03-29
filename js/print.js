@@ -38,10 +38,6 @@ function printInvoices(url_base='') {
 		
 		$.ajax({
 			url: url_base+'Billing/invoicesToPrint?fecha1='+date1+'&fecha2='+date2, success: function (result) {
-				newWin = window.open('', '', 'left=0,top=0,width=1180,height=900,toolbar=0,scrollbars=0,status=0');
-				newWin.document.write(result);
-				newWin.print();
-
 				myWindow=window.open('', '', 'left=0,top=0,width=1180,height=900,toolbar=0,scrollbars=0,status=0');
 				myWindow.document.write(result);
 				myWindow.focus();

@@ -1849,7 +1849,8 @@ class Billing extends CI_Controller {
 			// $mpdf = new mPDF('c', 'Letter', 0, '', 0, 0, 0, 0, 0, 0); 
 			// $mpdf->WriteHTML($html);
 			// $mpdf->Output($pdfFilePath, "D");
-			echo $html;
+
+			 echo $html;
 		}
 
 	}
