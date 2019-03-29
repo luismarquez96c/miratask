@@ -35,7 +35,20 @@ $ci->lang->load($this->session->userdata("lng") , 'labels');
 					<h2><i class="glyphicon glyphicon-calendar"></i> &ensp;<?php echo $this->lang->line('calendar_1'); ?></h2>
 					<div class="clearfix"></div>
 				</div>
-				
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
 				<div class="calendar-buttons">
 					<div class="row">
 						<div class="col-xs-5 text-center views-calendar hidden-xs">
@@ -189,6 +202,8 @@ $ci->lang->load($this->session->userdata("lng") , 'labels');
 	var current_user=<?=userget()->id ?>;
 </script>
 <script type="text/javascript" src="<?=base_url() ?>js/WI-calendar.js"></script>
+
+
 <script type="text/javascript">
 	set_settings_calendar();
 	var DATA_CALENDAR=null;
@@ -459,8 +474,6 @@ $ci->lang->load($this->session->userdata("lng") , 'labels');
 			}
 			function set_settings_calendar(){
 				settings=JSON.parse(localStorage.getItem('mira-calendar-settings'));
-
-
 
 
 				for(i in settings){
