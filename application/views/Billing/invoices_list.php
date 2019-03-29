@@ -27,7 +27,9 @@
  </script>
 
  <?php $status_op=array("1"=>"Uninvoiced","2"=>"Invoiced","3"=>"Paid" ); ?>
-
+ <pre>
+<?= $prueba . " -------------------------- " ?>
+ </pre>
  <form name ="listForm" id="listForm"  action="<?=base_app()?>Task/eraseListConfirm" method="POST" >
  	<div class="row">
  		<div class="col-xs-12  buttWrap">

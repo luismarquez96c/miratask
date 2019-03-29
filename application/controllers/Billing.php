@@ -452,7 +452,8 @@ class Billing extends CI_Controller {
 		$data["totalObjects"] = $total;
 
 		$data["billing"]=$this->billing->invoices($actualPage,$Objectxpage,$criterio);
-
+		
+		
 		$data["vista"]="Billing/template-billing";
 		$data["vista_billing"]="Billing/invoices_list";
 
