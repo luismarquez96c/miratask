@@ -189,7 +189,6 @@ class Matters extends CI_Controller {
 
 
 	public function SaveNew(){
-		
 		$status="";
 		
 		$data=$this->SecureModel->globalTask();
@@ -241,6 +240,27 @@ class Matters extends CI_Controller {
 		//echo "<br> fecha de datos abierto ".$new_date;
 		
 		//CORE
+
+		//VALIDACIÓN DEL LADO DEL SERVIDOR DE QUE LOS DATOS DE BILLING SEAN NUMERICOS POSITIVOS
+		// $estadoBilling = '';
+		// $mensaje = '';
+		// if ($this->input->post('TotalAmount')!='' && $this->input->post('Fee')!='' ){
+		// 	if( !is_numeric  ($this->input->post('TotalAmount')) && !is_numeric ($this->input->post('Fee'))){
+		// 		$mensaje = "<script>alert('Los datos ingresados como Pago total y cuota son incorrectos');</script>";
+		// 		$estadoBilling = "error";
+		// 	}
+		// }else if ($this->input->post('TotalAmount')!='' && $this->input->post('Fee')!='' &&  $this->input->post('Initial_Fee')!=''  ){
+		// 	if( !is_numeric  ($this->input->post('TotalAmount')) && !is_numeric ($this->input->post('Fee')) && !is_numeric ($this->input->post('Initial_Fee')) ){
+		// 		$mensaje = "<script>alert('Los datos ingresados como Pago total y cuota son incorrectos');</script>";
+		// 		$estadoBilling = "error";
+		// 	}
+		// }
+
+		// if($estadoBilling != ''){
+		// 	echo $mensaje;
+		// 	header('Location: '.$newURL);
+		// }
+
 		if($status==""){
 			
 			$data = array(

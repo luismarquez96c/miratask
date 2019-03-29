@@ -620,9 +620,13 @@ echo $this->session->userdata("message");
 
 	$("#deleteConf").click(function(){
 		$.ajax({url: "<?=base_app()?>Billing/deleteDraft/" + idInvoice + "?url="  , success: function(result){
-			alert("eliminado");
 			$('#deleteDraft').modal('hide');
+<<<<<<< HEAD
 			location.href ="<?php echo base_app() . 'Billing/invoices'  ?>";
+=======
+			alert("eliminado");
+			window.location.href = "<?= base_app() ?>Billing/invoices";
+>>>>>>> cambios_semana_4
 		}});
 	});
 	

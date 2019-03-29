@@ -1555,8 +1555,8 @@ class Billing extends CI_Controller {
 		$date1 = $this->input->get('fecha1');
 		$date2 = $this->input->get('fecha2');
 
-		//$date1 = '2018-06-01';
-		//$date2 = '2018-06-12';
+		// $date1 = '2018-06-01';
+		// $date2 = '2019-06-12';
 
 		$invoices = $this->billing->getInvoicesToPrint($date1,$date2);
 		
@@ -1850,7 +1850,16 @@ class Billing extends CI_Controller {
 			// $mpdf->WriteHTML($html);
 			// $mpdf->Output($pdfFilePath, "D");
 
+<<<<<<< HEAD
 			echo $html;
+=======
+			// $this->load->library('M_pdf');
+			// $mpdf = new mPDF('c', 'Letter', 0, '', 0, 0, 0, 0, 0, 0); 
+			// $mpdf->WriteHTML($html);
+			// $mpdf->Output($pdfFilePath, "D");
+
+			 echo $html;
+>>>>>>> cambios_semana_4
 		}
 
 	}

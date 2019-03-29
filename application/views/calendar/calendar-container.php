@@ -8,12 +8,12 @@ $ci->lang->load($this->session->userdata("lng") , 'labels');
 	<h3><?php echo $this->lang->line('calendar_1'); ?></h3><hr>
 </div>
 <style type="text/css">
-.wi-calendar-week-header-allday-day{
-	width: 14.285%;
-	height: 100%;
-	float: left;
-	position: relative;
-}
+	.wi-calendar-week-header-allday-day{
+		width: 14.285%;
+		height: 100%;
+		float: left;
+		position: relative;
+	}
 </style>
 
 
@@ -35,7 +35,20 @@ $ci->lang->load($this->session->userdata("lng") , 'labels');
 					<h2><i class="glyphicon glyphicon-calendar"></i> &ensp;<?php echo $this->lang->line('calendar_1'); ?></h2>
 					<div class="clearfix"></div>
 				</div>
-				
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
+				<!--  -->
 				<div class="calendar-buttons">
 					<div class="row">
 						<div class="col-xs-5 text-center views-calendar hidden-xs">
@@ -189,6 +202,8 @@ $ci->lang->load($this->session->userdata("lng") , 'labels');
 	var current_user=<?=userget()->id ?>;
 </script>
 <script type="text/javascript" src="<?=base_url() ?>js/WI-calendar.js"></script>
+
+
 <script type="text/javascript">
 	set_settings_calendar();
 	var DATA_CALENDAR=null;
@@ -461,8 +476,6 @@ $ci->lang->load($this->session->userdata("lng") , 'labels');
 				settings=JSON.parse(localStorage.getItem('mira-calendar-settings'));
 
 
-
-
 				for(i in settings){
 					console.log(".list-calenders [name='calenders[]'][value='"+settings[i].user+"']");
 					$(".list-calenders [name='calenders[]'][value='"+settings[i].user+"']").prop('checked',true);
@@ -494,6 +507,7 @@ $ci->lang->load($this->session->userdata("lng") , 'labels');
 		});
 
 	}
+
 
 	$("#modal-event").on('shown.bs.modal', function() {
 

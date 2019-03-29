@@ -246,11 +246,13 @@ $ci->lang->load($this->session->userdata("lng") , 'labels');
 		},200);
 		
 	});
+	
 	$(document).off("focusin",".autocomplete" );
 	$(document).on("focusin",".autocomplete",function(){
 		auto=$(this).parent();
 		auto.find(".list-autocomplete").show();
 	});
+
 	$(document).off("click",".item-attach .remove");
 	$(document).on("click",".item-attach .remove",function(){
 		$(this).parent().fadeOut(500,function(){
@@ -282,10 +284,10 @@ $ci->lang->load($this->session->userdata("lng") , 'labels');
 			return false;
 		}
 		$(".form-save-event").find(".btn").hide();
-
+		// URL: base_app/calendar/save_event
+		var estadoInsert = "";
 		$.post($(this).attr("action"),$(this).serialize(),function(data){
 			if(data.error==0){
-				$(".message-area .message-system").html("Event has been successfully saved").addClass('success').parent().show();
 				setTimeout(function(){
 					$("#modal-event").modal("hide");
 					if(typeof get_events_calendar === 'function'){
@@ -293,15 +295,31 @@ $ci->lang->load($this->session->userdata("lng") , 'labels');
 					}else{
 						location.reload();
 					}
-
+					
 				},3000);
 			}else{
-				$(".form-save-event").find(".btn").show();
-				$(".message-area .message-system").html(data.message).addClass('error').parent().show();
+				estadoInsert = "error";
+				
 			}
 		},"json");
+		alert(estadoInsert);
+		if(estadoInsert == ""){
+			$(".message-area .message-system").html("Event has been successfully saved").addClass('success').parent().show();
+			setTimeout( function(){
+				$("#modal-event").modal("hide");
+			} , 3000);
+		}else{
+			$(".form-save-event").find(".btn").show();
+			$(".message-area .message-system").html(data.message).addClass('error').parent().show();
+			setTimeout( function(){
+				$("#modal-event").modal("hide");
+			} , 3000);
+		}
+
+		alert("al salir");
 		return false;
 	});
+
 	function check_time(val){
 		x=val.split(":");
 		if(x.length<2){
@@ -317,6 +335,7 @@ $ci->lang->load($this->session->userdata("lng") , 'labels');
 	}
 </script>
 <script type="text/javascript">
+
 	$('.time-item input, .time-item select').change(function(){
 		item=$(this).parent();
 

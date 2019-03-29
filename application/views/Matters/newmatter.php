@@ -716,10 +716,54 @@ $ci->lang->load($this->session->userdata("lng") , 'labels');
 
 <script type="text/javascript" src="<?=base_url() ?>js/WI-calendar.js"></script>
 <script type="text/javascript">
+
+
+	var totalAmountVal;
+
+
+
+	// EVENTO QUE PERMITE QUE LOS CAMPOS NUMERICOS NO SEA UN NO NUMERO NI UN NÚMERO NEGATIVO
 	$(".calcule-billing").change(function(){
-		calcular_billing();
-		
+		validarNumero($(this).val(), $(this) );
 	});
+
+	// FUNCTION MANDADA A LLAMAR POR EL EVENTO CHANGE DE LOS CAMPOS NUMERICOS
+	function validarNumero(numero, obj){
+		var validador = "";
+		var mensaje = "";
+
+		if( isNaN(numero) ){
+			mensaje = "El valor que ha ingresado no es un número";
+			validador = "error";
+
+		}else if(numero <= 0) {
+
+			mensaje = "El valor que ha ingresado no debe de ser cero o menor que cero";
+			validador = "error";
+
+		}
+
+		if(validador != ""){
+			if(obj.attr('name') == 'TotalAmount' || obj.attr('name') == 'Initial_Fee' || obj.attr('name') == 'Fee' ){
+				$(obj).css('border', '1px solid red');
+
+				alert(mensaje);
+				setTimeout(function(){
+
+					$(obj).css('border', '');
+				}, 1500);
+				$(obj).val('');
+			}
+
+		}else{
+			calcular_billing();
+		}
+
+
+	}
+
+	
+
 	function calcular_billing(){
 		total=Number($('[name="TotalAmount"]').val());
 		initial_fee=Number($('[name="Initial_Fee"]').val());
@@ -730,10 +774,17 @@ $ci->lang->load($this->session->userdata("lng") , 'labels');
 		pay_day=$('[name="PerDay"]').val();
 
 		totalPay=total-initial_fee;
-		
+
 		if(fee>totalPay || fee==0){
 			$('[name="Fee"]').val(totalPay);
 		}
+
+		if(total < initial_fee ){
+			$('[name="Fee"]').val(0);
+			$('[name="Initial_Fee"]').val(total);
+			alert("El pago inicial no puede ser mayor que el total a pagar");
+		}
+
 		if(start_date==false){
 			return;
 		}
@@ -745,6 +796,9 @@ $ci->lang->load($this->session->userdata("lng") , 'labels');
 		}else{
 			$(".payday").hide();
 		}
+		
+		
+		
 		fee_rate=Math.ceil(totalPay/fee);
 
 		switch(periodicity){
@@ -802,6 +856,7 @@ $ci->lang->load($this->session->userdata("lng") , 'labels');
 		}
 
 		$('[name="EndDate"]').val(fecha_fin);
+
 	}
 
 	function str2date(str){
